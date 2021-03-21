@@ -66,6 +66,7 @@
   [Courtesy: learnopencv.com](https://learnopencv.com/otsu-thresholding-with-opencv/)
 ---
 
+
 ## RESNET architecture (Residual Network) and VGG16 for feature extraction
 ### RESNET
 - Winner of ImageNET 2015 challenge
@@ -87,11 +88,26 @@
 ### VGG 16
 
 ---
+### FCN - Fully Convolutional Network
+- 
+- 
+---
+
 ## UNET and SEGNET for segmentation
 - [Code](https://github.com/milesial/Pytorch-UNet/blob/67bf11b4db4c5f2891bd7e8e7f58bcde8ee2d2db/unet/unet_model.py#L8)
 
+## Downsampling
+- Convolution and specially pooling operation reduce the size of image. This is called downsampling.
+- Normally the the height and width keep reducing and the depth keeps increasing
+- This is because it helps focus on a larger receptive field n helps extract more complex features of image. 
+- EG: LeNet 5
+- *By down sampling, the model better understands “WHAT” is present in the image, but it loses the information of “WHERE” it is present.*
+
 ## UPSAMPLING
+- Need for upsampling:
 - 
+
+
 ## BATCHNORM
 -
 ## TRANSFER LEARNING FOR object detection
