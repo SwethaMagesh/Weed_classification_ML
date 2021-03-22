@@ -27,13 +27,13 @@
 
 
 - DATASET:
-  - [Synthetic images of sugar beet and random weeds] ()
+  - [Synthetic images of sugar beet and random weeds] (http://www.diag.uniroma1.it//~labrococo/fds/syntheticdatasets.html)
   - Size of data:376 MB (compressed tar.gz file)
   - No of images: 1252
   - Annotation type: Semantic segmentation
   - ![image](https://user-images.githubusercontent.com/43994542/111937543-f6f3ff00-8aed-11eb-9478-7309191a5a49.png)
 #### Also used:
-- [Kaggle dataset] ()
+- [Kaggle dataset] (https://www.kaggle.com/wangyongkun/sugarbeetsandweeds)
 - Having 120 images with xml annotation with bounded box
 
 ### CODE
