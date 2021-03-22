@@ -5,7 +5,7 @@
 
 ---
 ## Sample output:
--![image](https://github.com/SwethaMagesh/Weed_classification_ML/tree/main/NOTES/ss.jpg)
+-![image](https://github.com/SwethaMagesh/Weed_classification_ML/blob/main/NOTES/ss.JPG)
 
 - Here First image is input field, Second is Located weeds by the model, Third is the ground evidence
 
@@ -35,5 +35,5 @@
 - Having 120 images with xml annotation with bounded box
 
 ### CODE
-- []()
+- [VIEW code and comments](https://github.com/SwethaMagesh/Weed_classification_ML/blob/main/ModelUNET.ipynb)
 
