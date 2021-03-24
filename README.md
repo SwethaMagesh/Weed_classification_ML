@@ -5,7 +5,8 @@
 
 ---
 ## Sample output:
--![image](https://github.com/SwethaMagesh/Weed_classification_ML/blob/main/NOTES/ss.JPG)
+-![image](https://user-images.githubusercontent.com/43994542/112268385-e6ce5200-8c9c-11eb-8486-24121f9f9330.png)
+
 
 - Here First image is input field, Second is Located weeds by the model, Third is the ground evidence
 - ![accuracy](https://user-images.githubusercontent.com/43994542/111944893-a6d16880-8afe-11eb-9da7-a5583c222a96.JPG)

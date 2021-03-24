@@ -51,16 +51,21 @@
 1. else pass into unet architecture and dense CRF
 1. op- **Segmented Image**
 
-## Step 1 and 2
+## Augmentation and Pre Processing
 - For changing color space of image - cvtColor(src,dest)
 - square center crop 
 - To  normalize, First take squared center crop and resize it(*cv2.resize()*) and convert into numpy array and normalize it.
 
-## Step 3 and 4
+## Classification
 - Read all files and label them
 - Separate the files( train set and validation set)
 - Training Generator ( batch iages converted to binary class matrix)
 - inceptionV3 archi is used
 - one global polling and dense layer is created
 *(NOTE : Inception v3  has 48 layers)*
+- Compile the  model(loss is *binary_crossentropy* and optimizer is *adamax()*) and load the model
+- Different classifiers are used say ** SVM,Random Forest Classifier,Decsion Tree Classifier,Softmax***
 
+# SVM
+- Objective : to return best fit to categorize our data
+1. 
