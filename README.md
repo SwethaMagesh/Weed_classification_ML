@@ -10,7 +10,7 @@
 
 - Here First image is input field, Second is Located weeds by the model, Third is the ground evidence
 - ![accuracy](https://user-images.githubusercontent.com/43994542/111944893-a6d16880-8afe-11eb-9da7-a5583c222a96.JPG)
-- ![loss](https://user-images.githubusercontent.com/43994542/111944897-a933c280-8afe-11eb-986b-e11db9725dfa.JPG)
+<!-- ![loss](https://user-images.githubusercontent.com/43994542/111944897-a933c280-8afe-11eb-986b-e11db9725dfa.JPG) -->
 
 ---
 ## Model used
@@ -23,18 +23,19 @@
   1. Upsampling has Convolution and Upsampling layers repeated
     - These are repeated 4 times in our model
     - CCUCCUCCUCCU
+  1. Concat layer is also used
   1. Finally there are convolutional and single dense layer with sigmoid activation 
   1. *NOTE: Hidden layer activation is relu*
 
 
 - DATASET:
-  - [Synthetic images of sugar beet and random weeds] (http://www.diag.uniroma1.it//~labrococo/fds/syntheticdatasets.html)
+  - [Synthetic images of sugar beet and random weeds](http://www.diag.uniroma1.it//~labrococo/fds/syntheticdatasets.html)
   - Size of data:376 MB (compressed tar.gz file)
   - No of images: 1252
   - Annotation type: Semantic segmentation
   - ![image](https://user-images.githubusercontent.com/43994542/111937543-f6f3ff00-8aed-11eb-9478-7309191a5a49.png)
 #### Also used:
-- [Kaggle dataset] (https://www.kaggle.com/wangyongkun/sugarbeetsandweeds)
+- [Kaggle dataset](https://www.kaggle.com/wangyongkun/sugarbeetsandweeds)
 - Having 120 images with xml annotation with bounded box
 
 ### CODE
